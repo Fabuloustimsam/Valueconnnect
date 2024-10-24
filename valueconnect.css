@@ -1,0 +1,401 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 1.5rem;
+  
+}
+li{
+  list-style: none;
+}
+a{
+  color: grey;
+  text-decoration: none;
+}
+.container{
+  width: 1600px;
+  margin: auto;
+
+  
+}
+.subcontainer{
+  width: 85%;
+  margin: auto;
+  
+}
+.navbar{
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.nav-branding{
+  font-size: 2rem;
+  margin-right: 3rem;
+}
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  transition: all 0.4s ease;
+  background-color: gray;
+}
+#home{
+   margin-top: 70px; /*has to be the same with the height of the navbar */
+   /* border: 1px solid black; */
+   /* height: 100vh;
+   background-image: url(Assets/blue-sky.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(147, 129, 177, 0.862);;
+   margin-top: 2rem; */
+   
+}
+/* okayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy */
+.sign-in{
+  background-color: transparent;
+  border: none;
+  /* margin-right: 1rem; */
+}
+.sign-in:hover{
+  color: blue;
+}
+.sign-up{
+  background-color: rgb(65, 65, 234);
+  border: none;
+  /* height: 35px; */
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  color: white; 
+  border-radius: 7px;
+  font-size: large;
+  /* margin: -0.5rem; */
+}
+.sign-up:hover{
+  background-color: rgb(170, 170, 215);
+  color: blue;
+}
+
+.nav-item:hover{
+  transition: ease all 0.3s;
+  background-color: rgba(239, 237, 248, 0.806);
+  color: red;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  overflow: hidden; */
+}
+.navlink .contactus{
+  padding-right: 3rem; 
+}
+.nav-side{
+  padding-left: 11rem;
+  border-right: solid 1px black;
+  padding-right: 1rem;
+}
+.nav-sides{
+  gap: 5px;
+}
+.landing-page{
+   height: 100vh;
+   background-color: #E7ECFE;
+   /* background-repeat: no-repeat;
+   background-size: cover; */
+   width: 100%;
+   background-attachment: fixed;
+   height: 100%;
+   padding-bottom: 5%;
+   
+}
+.landing-maindiv{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  gap: 4rem;
+}
+.landing-texts{
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-left: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+.landing-images{
+  display: flex;
+  height: 17em; 
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: 8%;
+}
+.unlock{
+  font-size: 4em;
+  padding-top: 2rem;
+  color: black;
+  margin: auto;
+  
+}
+.gainskills{
+  color: black;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  font-size: 2em;
+}
+.get-started{
+  margin-top: 2.5rem;
+  height: 4rem;
+  width: 11rem;
+  background-color: rgb(65, 65, 234);
+  border-radius: 4rem;
+  border: rgb(244, 243, 243) 1px solid;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  
+}
+.get-started:hover{
+  background-color: #88abec;
+}
+.logodiv{
+  width: 95vw;
+  height: fit-content;
+  margin: auto;
+  background-color: white;
+  justify-content: center;
+}
+.partners-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  gap: 3rem;
+  width: 100%;
+  overflow: none;
+  
+}
+.logodiv{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.Learning-header{
+    font-size: 3em;
+    padding-top: 5rem;
+    color: #203968;
+    border: none;
+}
+.bridge-section{
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.bridge-header{
+  font-size: 4em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  border-top-left-radius: solid 2px black;
+  border-top-color: black;
+  width: 9em;
+  /* margin-left: 5rem; */
+}
+.provider{
+  font-size: 1em;
+  width: 25em;
+  margin-top: 2rem;
+  font-weight: light;
+}
+.line1{
+  margin-bottom: 2rem;
+}
+.providers-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 7rem;
+}
+.firstbridge{
+  gap: 2rem;
+  margin-top: 3rem;
+
+}
+.Social-image{
+  width: 30em;
+}
+.mentorship{
+  text-align: center;
+  margin-top: 7rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  font-size: larger;
+}
+.mentorshipheading{
+  text-align: center;
+  font-size: 4em;
+}
+.mentorship-info{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 23%;
+  margin-right: 23%;
+  line-height: 1.5;
+}
+.main-mentor{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mentorship-divs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+.Techhubs{
+  font-size: 2em;
+}
+.techtext{
+  width: 25vw;
+  text-align: center;
+  font-size: 1em;
+}
+.whylines{
+  display: flex;
+  align-items: center;
+
+}
+.lines{
+  width: 18rem;
+  height: 1px;
+  background-color: black;
+  margin-left: 2.5rem;
+
+
+}
+.reasonswhy{
+  width: 20em;
+}
+.mainwhydiv{
+  display: flex;
+  margin-top: 8rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 4rem;
+  flex-wrap: wrap;
+  line-height: 2;
+  font-size: 1rem;
+}
+.gapwhydiv{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+.aboutus{
+  width: 11rem;
+  height: 55px;
+  border-radius: 5rem;
+  font-size: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 4rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  
+}
+.aboutus:hover{
+  transform: scale(1.1);
+  transition: ease-in 155ms;
+  background-color: white;
+}
+.whyheader{
+  font-size: 3em;
+}
+.whyheaders{
+  font-size: 2em;
+}
+.readiness{
+  font-size: 4em;
+  color: skyblue;
+  margin-top: 10rem;
+  text-align: center;
+  justify-content: center;
+}
+.readytips{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: grey;
+  font-weight: lighter;
+}
+.get-startedbutton{
+  margin-top: 5rem;
+  width: 11em;
+  height: 4em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(27, 248, 27);
+  color: white;
+  border-radius: 5rem;
+  border: none;
+  font-size: 1em;
+}
+.get-startedbutton:hover{
+  transform: scale(1.1);
+  transition: ease-in 155ms;
+}
+.lastsection{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#footer{
+  height: 20vh;
+}
+.footerdiv{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: black;
+}

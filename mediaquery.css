@@ -1,0 +1,126 @@
+@media(max-width: 1600px) {
+  .container{
+    width: 100%;
+
+  }
+}
+@media(max-width:1024px) {
+  .hamburger{
+    display: block;
+    
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+    
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+    
+  }
+  .mentorship-divs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  
+  }
+  .Social-image{
+    width: 80%;
+  }
+
+  .techtext{
+    width: 19em;
+  
+  }
+  .whylines{
+    font-size: xx-small;
+  }
+
+  .readiness{
+    font-size: 3em;
+  }
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #E7ECFE;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-side{
+    border: none;
+    padding: 0;
+    justify-content: center;
+  }
+  .sign-in{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .cart-icon{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .nav-item{
+    margin: 16px 0;
+
+  }
+  .nav-menu.active{
+    left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .landing-images{
+    justify-content: center;
+    margin: auto;
+    width: 85%;
+
+  }
+  .landimgedit{
+    width: 100%;
+  }
+  .partners-icons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .unlock{
+    font-size: 250%;
+    flex-shrink: 1;
+  }
+  .gainskills{
+    font-size: 1.5em;
+  }
+  .bridge-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .firstbridge{
+    font-size-adjust: 4rem;
+    width:4vw;
+  }
+  .bridge-header{
+    font-size: 200%;
+  }
+  .provider{
+    font-size: 70%;
+  }
+  .count{
+    justify-content: center;
+    width: ;
+  }
+  .providers-img{
+    
+  }
+  
+}
+
+
+
