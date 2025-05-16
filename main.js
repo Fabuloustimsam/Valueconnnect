@@ -11,3 +11,10 @@ document.querySelectorAll(".nav-link").forEach(n=> n.
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
   }))
+
+//   const hamburger = document.querySelector(".hamburger");
+// const navMenu = document.querySelector(".nav-menu");
+
+// hamburger.addEventListener("click", () => {
+//   navMenu.classList.toggle("active");
+// });

@@ -93,6 +93,7 @@
   .unlock{
     font-size: 250%;
     flex-shrink: 1;
+    margin-right: 2rem;
   }
   .gainskills{
     font-size: 1.5em;
